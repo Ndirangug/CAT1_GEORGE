@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Months</title>
-	<link rel="stylesheet" type="text/css" href="bootsrtap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.css">
 </head>
