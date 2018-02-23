@@ -7,7 +7,7 @@ select, #add{
 	width:80%;
 }
 
-.img-rounded{
+.color{
 	background-color: rgb(223, 230, 128);
 	padding-bottom: 1em;
 	
@@ -33,4 +33,20 @@ form{
 h3{
 	margin: 1em 2em 1em 2em;
 	font-size: 1.3em;
+}
+.whole{
+	padding: 2em;
+	background-color: rgb(221, 244, 247);
+}
+
+.list{
+	border-right: rgb(14, 117, 81) 0.2em dotted;
+	
+}
+
+p{
+	font-size: 1.2em;
+}
+ul > li{
+	list-style: square;
 }

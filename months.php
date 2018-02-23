@@ -43,7 +43,7 @@
 	 ?>
 
 	 <div class="container">
-	 	<div class="img-rounded">
+	 	<div class="img-rounded color">
 	 	<table>
 	 		<thead>
 	 			<th><h1>Please Choose a Month</h1></th>
