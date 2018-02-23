@@ -1,7 +1,36 @@
 .container{
 	width:60%;
 	margin: auto;
+	margin-top: 3em;
 }
 select, #add{
 	width:80%;
+}
+
+.img-rounded{
+	background-color: rgb(223, 230, 128);
+	padding-bottom: 1em;
+	
+	
+}
+
+table{
+	width:100%;
+	margin: 0;
+}
+thead{
+	background-color: rgb(153, 192, 11);
+}
+
+th{
+	padding: 1em;
+	text-align: center;
+}
+form{
+	margin:3em 3em 0 3em;
+}
+
+h3{
+	margin: 1em 2em 1em 2em;
+	font-size: 1.3em;
 }

@@ -44,7 +44,7 @@
 
 	 <div class="container">
 	 	<div class="img-rounded">
-	 	<table >
+	 	<table>
 	 		<thead>
 	 			<th><h1>Please Choose a Month</h1></th>
 	 		</thead>
@@ -69,8 +69,8 @@
 	 			
 	 		</tbody>
 	 	</table>
-	 	</div>
-	 </div>
+	 	
+	 
 
 	 <?php
 	 	if (isset($_POST['submit'])) {
@@ -78,20 +78,20 @@
 	 		$days = $months[$monthSelected];
 
 	 		if ($monthSelected !== "february") {
-	 			echo "<div class='container'><h3>The month of $monthSelected has $days days</h3></div>";
+	 			echo "<h3>The month of ". ucfirst($monthSelected) ." has $days days</h3></div></div>";
 	 		}
 
 	 		else{
-	 			if ($days == 29) {
-	 				echo "<div class='container'><h3>The month of $monthSelected has $days days because it is a leap year</h3></div>";
+	 			if ($days == 29){
+	 				echo "<h3>The month of ".ucfirst($monthSelected)." has $days days because it is a leap year</h3></div></div>";
 	 			}
 
 	 			else{
-	 				echo "<div class='container'><h3>The month of $monthSelected has $days days because it is not a leap year</h3></div>";
+	 				echo "<h3>The month of ".ucfirst($monthSelected)." has $days days because it is not a leap year</h3></div></div>";
 	 			}
 	 		}
-	 		
-	 	}
+		}
+	 	
 	 ?>
 
 	 <script type="text/javascript" src="bootstrap/js/jQuery.js"></script>
